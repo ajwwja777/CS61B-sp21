@@ -120,4 +120,4 @@
 
    ###### Part 8 EXTRA fancier to String and the of static
    new list --> list.add --> string.join  
-   public static <B> of<B>(B... item) {...} (because of static, cannot use <T>,so use <B> instead.)
+   public static < B > of< B >(B... item) {...} (because of static, cannot use < T >,so use < B > instead.)
