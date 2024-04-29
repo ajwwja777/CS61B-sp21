@@ -89,35 +89,35 @@
 1. IMPORTANT CHANGE: I find that sp21 is better, so I turn to it.
 2. Finished lec11!
 3. NOTES
-   * Part 1 Lists and Sets in Java  
-   nothing  
-  
-   * Part 2 Basic Arrayset  
-   nothing  
-  
-   * Part 3 - exceptions
-   1. throw new RuntimeException("For no reason.");  
-  
-   * Part 4 Iterable
-   1. Class A implements Iterable {  
-      …  
-      Class nestedAIterator implements Iterator{…}  
-      nestedAIterator Iterator(){…}  
-      }  
-  
-   * Part 5 toString
-   1. override
-   2. string+=… is a copy, waste time
-   3. stringbuilder sb = new stringbuilder("{")
-  
-   * Part 6  ==, this, equals
-   1. == compares box
-   2. equals compares box in default, so override 
-   3. notice to null  
-  
-   * Part 7 Summary  
-   nothing  
-  
-   * Part 8 EXTRA fancier to String and the of static
-   1. new list --> list.add --> string.join
-   2. public static <B> of<B>(B... item) {...} (because of static, cannot use <T>,so use <B> instead.)
+   * # Part 1 Lists and Sets in Java
+   nothing
+
+   * # Part 2 Basic Arrayset
+   nothing
+
+   * # Part 3 - exceptions
+   throw new RuntimeException("For no reason.");
+
+   * # Part 4 Iterable
+   Class A implements Iterable {  
+   …  
+   Class nestedAIterator implements Iterator{…}  
+   nestedAIterator Iterator(){…}  
+   }
+
+   * # Part 5 toString
+   override  
+   string+=… is a copy, waste time  
+   stringbuilder sb = new stringbuilder("{")
+
+   * # Part 6  ==, this, equals
+   == compares box  
+   equals compares box in default, so override  
+   notice to null
+
+   * # Part 7 Summary
+   nothing
+
+   * # Part 8 EXTRA fancier to String and the of static
+   new list --> list.add --> string.join  
+   public static <B> of<B>(B... item) {...} (because of static, cannot use <T>,so use <B> instead.)
