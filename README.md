@@ -1,7 +1,7 @@
 # CS61B
-![Image1](https://github.com/ajwwja777/git_exercise/raw/master/CS61BWebTitle.png)
+![Image1](https://github.com/ajwwja777/git_exercise/raw/master/61b-sp21-title.png)
 [English version](README_en.md)  
-[CS61B-extension](https://github.com/ajwwja777/CS61B-extension/tree/master)
+[CS61B-extension](https://github.com/ajwwja777/CS61B-sp21-extension/tree/master)
 
 ### 前言与路线图
 总结之前CS61A的经验，制定新的学习策略。
@@ -17,11 +17,11 @@
 要有效率的学习，最好限时自己完成一件事情，不要陷入完美主义，把握主要思路即可，因为一些偏理论的细致末节的东西很快就会被忘掉，而应用的最多的才会被记住。
 
 ### Useful link
-* [Course Website](https://sp18.datastructur.es/)
+* [Course Website](https://sp21.datastructur.es/)
 - [Textbook](https://joshhug.gitbooks.io/hug61b/content/)
-* [Skeleton Code](https://github.com/Berkeley-CS61B/skeleton-sp18)
-- [Study notes by Junhao Wang](https://junhaow.com/studynotes/#cs-61b-data-structures)
-* [exercisesInGuide](https://github.com/githubdudu/cs61b-2021Spring/tree/17ccfcd1bd5b3b93872689f27bcd41fb14cd8b7f/exercisesInGuide)
+* [Skeleton Code](https://github.com/Berkeley-CS61B/skeleton-sp21)
+- [Study notes by Junhao Wang-sp18](https://junhaow.com/studynotes/#cs-61b-data-structures)
+* [exercisesInGuide-sp21](https://github.com/githubdudu/cs61b-2021Spring/tree/17ccfcd1bd5b3b93872689f27bcd41fb14cd8b7f/exercisesInGuide)
 
 ### 简单记录与总结
 #### 记录
@@ -83,3 +83,40 @@
 1. Finished lec10! New level of abstrction! Interface is a brilliant idea!
 2. I need to upload proj1b, with interface and comparable and comparator.
 3. So think about the lab and proj during studying lec, after finishing lec, then do them.
+
+`4.29`
+1. IMPORTANT CHANGE: I find that sp21 is better, so I turn to it.
+2. Finished lec11!
+3. NOTES
+   * Part 1 Lists and Sets in Java
+   nothing
+
+   * Part 2 Basic Arrayset
+   nothing
+
+   * Part 3 - exceptions
+   1. throw new RuntimeException("For no reason.");
+
+   * Part 4 Iterable
+   1. Class A implements Iterable {  
+      …  
+      Class nestedAIterator implements Iterator{…}  
+      nestedAIterator Iterator(){…}  
+      }
+
+   * Part 5 toString
+   1. override
+   2. string+=… is a copy, waste time
+   3. stringbuilder sb = new stringbuilder("{")
+
+   * Part 6  ==, this, equals
+   1. == compares box
+   2. equals compares box in default, so override 
+   3. notice to null
+
+   * Part 7 Summary
+   nothing
+
+   * Part 8 EXTRA fancier to String and the of static of
+   1. new list --> list.add --> string.join
+   2. public static <B> of<B>(B... item) {...} (because of static, cannot use <T>,so use <B> instead.)
