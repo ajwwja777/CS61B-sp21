@@ -121,3 +121,23 @@
    ###### Part 8 EXTRA fancier to String and the of static
    new list --> list.add --> string.join  
    public static < B > of< B >(B... item) {...} (because of static, cannot use < T >,so use < B > instead.)
+
+`4.30`
+1. I plan to do the lab and proj today, but I feel more interst in lec now, so ..., lec.
+2. Finished lec12.
+3. Notes
+   ###### Content
+   Maps.  
+   Hashing.  
+   File I/O.  
+   Graphs.
+
+   ###### Approach Comparison
+   1,2,3: Commit ID (that goes up by 1) that includes the file.  
+   4: Date and time of file.  
+   5: git-SHA1 hash of file.
+
+   ###### Storing Commits using Serializable
+
+   ###### Branching
+   Merging
