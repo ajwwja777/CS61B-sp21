@@ -147,17 +147,17 @@
 2. Spent 2h and more in lab3, I am too slow...
 3. Notes
    ###### Part1 runtime
-   // Ns: size of the list
-   // times: time of the process
-   // opCounts: number of the process 
-   private static void printTimingTable(AList<Integer> Ns, AList<Double> times, AList<Integer> opCounts){}
-   Stopwatch sw = new Stopwatch();
-   times.addLast(sw.elapsedTime());
+   // Ns: size of the list  
+   // times: time of the process  
+   // opCounts: number of the process  
+   private static void printTimingTable(AList<Integer> Ns, AList<Double> times, AList<Integer> opCounts){}  
+   Stopwatch sw = new Stopwatch();  
+   times.addLast(sw.elapsedTime());  
 
    ###### Part2 random test
-   int operationNumber = StdRandom.uniform(0, 4);
+   int operationNumber = StdRandom.uniform(0, 4);  
    int randVal = StdRandom.uniform(0, 100);
 
    ###### Part3 debug
-   // Note: this expectation breakpoint should be used with condition to a breakpoint(Empirically).
+   // Note: this expectation breakpoint should be used with condition to a breakpoint(Empirically).  
    this instanceof java.lang.ArrayIndexOutOfBoundsException
