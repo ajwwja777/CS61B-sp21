@@ -22,6 +22,29 @@ public class TimeAList {
     }
 
     public static void timeAListConstruction() {
-        // TODO: YOUR CODE HERE
+        // DONE: YOUR CODE HERE
+        // @sourse https://github.com/githubdudu/cs61b-2021Spring
+        int START_N = 1000;// 1000, 2000, 4000, 8000, 16000, 32000, 64000, ..., 1024000
+        int END_N = 1024000; // 64000 or 128000; depends on Hardware
+        int ITEM_ADDED = 1;
+        // These ALists are used for print method as counters
+        AList<Integer> Ns = new AList<>();
+        AList<Double> times = new AList<>();
+        AList<Integer> opCount = Ns;
+        for (int k = START_N; k <= END_N; k = k * 2) {
+            Ns.addLast(k); // Record the N column
+            /* 1. Create an empty AList */
+            AList<Integer> lst = new AList<>();
+            /* 2. Start the timer */
+            Stopwatch sw = new Stopwatch();
+            /* 3. Perform addLast k times */
+            for (int j = 0; j < k; j += 1) {
+                lst.addLast(ITEM_ADDED);
+            }
+            /* 4. Record times */
+            times.addLast(sw.elapsedTime());
+        }
+        System.out.println("Timing table for AList addLast:");
+        printTimingTable(Ns, times, opCount);
     }
 }

@@ -141,3 +141,6 @@
 
    ###### Branching
    Merging
+
+`5.1`
+1. Today, I am going to FINISH proj1b & proj1gold in sp18 and lab3 & lab4 & lab5 & proj1 in sp21.
