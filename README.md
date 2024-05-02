@@ -163,7 +163,7 @@
    this instanceof java.lang.ArrayIndexOutOfBoundsException
 
 `5.2`
-1. Today, I am going to finish projb and lab4. Going to spend 2h.
+1. Today, I am going to finish proj1b and lab4. Going to spend 2h.
 2. Notes
    ###### Part1 Merge Conflicts
    git pull  
@@ -179,3 +179,5 @@
     }  
    int a = b = 128;  
    isSameNumber(a, b) --> False
+3. proj1b
+   Just review the code, get a deep understand of Interface and HoF.
