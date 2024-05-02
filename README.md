@@ -161,3 +161,6 @@
    ###### Part3 debug
    // Note: this expectation breakpoint should be used with condition to a breakpoint(Empirically).  
    this instanceof java.lang.ArrayIndexOutOfBoundsException
+
+`5.2`
+1. Today, I am going to finish projb and lab4. Going to spend 2h.
