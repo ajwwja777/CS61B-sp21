@@ -164,4 +164,18 @@
 
 `5.2`
 1. Today, I am going to finish projb and lab4. Going to spend 2h.
-This message is created for merging test.
+2. Notes
+   ###### Part1 Merge Conflicts
+   git pull  
+   then, selec an option in editor.
+
+   ###### Part2 Detached HEAD States & Checking Out Code with Git
+   git checkout < your cocmmit address >  
+   then, all the file will be the past one. And you can do something based on that. At last, you should add a new branch to keep it.
+
+   ###### Part3 a little difference between Integer and int
+   public static boolean isSameNumber(Integer a, Integer b) {  
+        return a == b;  
+    }  
+   int a = b = 128;  
+   isSameNumber(a, b) --> False
