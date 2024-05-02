@@ -162,9 +162,6 @@
    // Note: this expectation breakpoint should be used with condition to a breakpoint(Empirically).  
    this instanceof java.lang.ArrayIndexOutOfBoundsException
 
-<<<<<<< HEAD
 `5.2`
 1. Today, I am going to finish projb and lab4. Going to spend 2h.
-=======
 This message is created for merging test.
->>>>>>> 08ab6d977ee4ff1c9ace56cbc26bc712cf1521cb
