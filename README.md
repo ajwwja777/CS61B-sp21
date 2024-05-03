@@ -197,7 +197,7 @@
    physical time --> general --> worst --> Order of Growth(shape) --> represent --> theta & o.  
    0.1s, ... --> 1 to n^2+2n, ... --> n^2+2n, ... --> n^2, ... --> n^2 --> theta(n^2) & O(n^2 or bigger).
 
-3. My thought about education: Chinese vs English
+3. My thought about education: Chinese vs English  
    ● English way of learning is presented above.  
    ● Chinese way is like these:  
    the definition of theta & o --> calc the codes' theta & o.  
