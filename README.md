@@ -195,13 +195,13 @@
 
    ###### Part1 My logical thought
    physical time --> general --> worst --> Order of Growth(shape) --> represent --> theta & o.  
-   0.1s, ... --> 1 to n^2+2n, ... --> n^2+2n, ... --> n^2, ... --> n^2 --> big theta & big o.
+   0.1s, ... --> 1 to n^2+2n, ... --> n^2+2n, ... --> n^2, ... --> n^2 --> theta(n^2) & O(n^2 or bigger).
 
 3. My thought about education: Chinese vs English
-   * English way of learning is presented above.  
-   * Chinese way is like these:  
+   ● English way of learning is presented above.  
+   ● Chinese way is like these:  
    the definition of theta & o --> calc the codes' theta & o.
-   * Conlusion  
+   ● Conlusion  
    English way is from 0 to 1, can make you thought more deep.  
    Chinese way is to teach you how to use tools, which is more efficient.  
    Both of them have their own good.
