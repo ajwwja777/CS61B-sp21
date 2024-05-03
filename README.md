@@ -200,7 +200,7 @@
 3. My thought about education: Chinese vs English
    ● English way of learning is presented above.  
    ● Chinese way is like these:  
-   the definition of theta & o --> calc the codes' theta & o.
+   the definition of theta & o --> calc the codes' theta & o.  
    ● Conlusion  
    English way is from 0 to 1, can make you thought more deep.  
    Chinese way is to teach you how to use tools, which is more efficient.  
