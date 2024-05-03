@@ -167,7 +167,7 @@
 2. Notes
    ###### Part1 Merge Conflicts
    git pull  
-   then, selec an option in editor.
+   then, select an option in editor.
 
    ###### Part2 Detached HEAD States & Checking Out Code with Git
    git checkout < your cocmmit address >  
@@ -179,5 +179,29 @@
     }  
    int a = b = 128;  
    isSameNumber(a, b) --> False
-3. proj1b
+3. proj1b  
    Just review the code, get a deep understand of Interface and HoF.
+
+`5.3`
+1. Finished lec13, Asymptotics I.
+2. Notes
+   ###### Part0 lec content
+   Lecture 13: Introduction to Asymptotic Analysis  
+   ● Intuitive Runtime  
+   ● Detailed Analysis of Worst Case Order of Growth  
+   ● Simplified Analysis  
+   ● Big Theta Notation  
+   ● Big O Notation
+
+   ###### Part1 My logical thought
+   physical time --> general --> worst --> Order of Growth(shape) --> represent --> theta & o.  
+   0.1s, ... --> 1 to n^2+2n, ... --> n^2+2n, ... --> n^2, ... --> n^2 --> big theta & big o.
+
+3. My thought about education: Chinese vs English
+   * English way of learning is presented above.  
+   * Chinese way is like these:  
+   the definition of theta & o --> calc the codes' theta & o.
+   * Conlusion  
+   English way is from 0 to 1, can make you thought more deep.  
+   Chinese way is to teach you how to use tools, which is more efficient.  
+   Both of them have their own good.
