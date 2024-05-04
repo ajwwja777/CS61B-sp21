@@ -219,19 +219,18 @@
    ● Path Compression (CS170 Preview)
 
    ###### Part2 Quick Thought
-   boxes and lines --> ListOfSets --> QuickFind(array) --> Quick Union(tree) --> Weighted Quick Union  --> WeightedQuickUnionDSWithPathCompression  
-   Implementation Runtime  
-   ListOfSetsDS O(NM)  
-   QuickFindDS Θ(NM)  
-   QuickUnionDS O(NM)  
-   WeightedQuickUnionDS O(N + M log N)  
-   WeightedQuickUnionDSWithPathCompression O(N + M α(N))  
-   (object of size N, perform M operations)
+   boxes and lines --> ListOfSets --> QuickFind(array) --> Quick Union(tree) --> Weighted Quick Union  --> WeightedQuickUnionDSWithPathCompression
 
    ###### Part3 Extension
    ● Naive: Record each line, I think node or matrix form to record it would be nice.  
    ● Quick Union: Cool solution! But the worst situation is worse than the previus one.  
    ● Weighted Quick Union: Why not heighted-QU? Ans: Almost same perfomance but complicated codes.  
    ● Weighted Quick Union: Let’s consider the worst case where the tree height grows as fast as possible(nice thought) --> Find worst case tree height is Θ(log N).  
-   ● WeightedQuickUnionDSWithPathCompression(nice thought): On calls to connect and isConnected, set parent id to the root for all items seen.
-
+   ● WeightedQuickUnionDSWithPathCompression(nice thought): On calls to connect and isConnected, set parent id to the root for all items seen.  
+   ● Implementation Runtime  
+     ListOfSetsDS O(NM)  
+     QuickFindDS Θ(NM)  
+     QuickUnionDS O(NM)  
+     WeightedQuickUnionDS O(N + M log N)  
+     WeightedQuickUnionDSWithPathCompression O(N + M α(N))  
+     (object of size N, perform M operations)
