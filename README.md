@@ -219,7 +219,7 @@
    ● Path Compression (CS170 Preview)
 
    ###### Part2 Quick Thought
-   boxes and lines --> ListOfSets --> QuickFind(array) --> Quick Union(tree) --> Weighted Quick Union  --> WeightedQuickUnionDSWithPathCompression
+   boxes and lines --> ListOfSets --> QuickFind(no head array) --> Quick Union(array tree) --> Weighted Quick Union(record the size in array head)  --> WeightedQuickUnionDSWithPathCompression(do that while do this)
 
    ###### Part3 Extension
    ● Naive: Record each line, I think node or matrix form to record it would be nice.  
