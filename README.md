@@ -208,7 +208,7 @@
 
 `5.4`
 1. Going to finish lec14, Disjoint Sets.
-2. Finished?
+2. Finished lec14.
 3. Notes
    ###### Part1 Lec Content
    Lecture 14: Disjoint Sets  
