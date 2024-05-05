@@ -248,13 +248,13 @@
    ● Example 5: Mergesort
 
    ###### Part2 Quick Thought
-   for for review(count and geomatric) --> for for(i=i*2)(A nice way: 0.5n < count < 2n) --> Recursion(3 ways) --> Binary Search(3 ways) --> Mergsort(theta(n*log2n))
+   for for review(count and geomatric) --> for for(i=i*2)(A nice way: 0.5n < count < 2n) --> Recursion(3 ways) --> Binary Search(3 ways) --> Mergsort(theta(nlog2n))
 
    ###### Part3 Extension
    ● C(N): Cost model, Count, Use array writes as cost model.  
-   ● Two tech: 1.Intuitive(Graph or easy way), 2. Use array writes as cost model.  
-   ● Recursion: 1. Intuitive(double the graph of recursion Tree), 2. C(N)(Count calls of fn， and just use formula), 3.C(N) = 2*(C(N-1)) + 1.  
-   ● Binary Search: 1.Intuitive 1 = N/2^C -> C = log(N), 2.Count exact C(N) = ⌊log(N)⌋+1 --> theta(logn) (= theta(log2n)), 3.C(N) = 1 + C((N-1)/2).  
-   ● Arbitrary Units: Given that runtime is quadratic, for N = 64, we might say the runtime for selection sort is 4,096 arbitrary units of time ● (AU).  
-   ● Sum:  1 + 2 + 3 … + N = theta(N^2) and 1 + 2 + 4 + … + N = theta(N).
+   ● Two tech: 1. Intuitive(Graph or easy way), 2. Use array writes as cost model.  
+   ● Recursion: 1. Intuitive(double the graph of recursion Tree), 2. C(N)(Count calls of fn, and just use formula), 3.C(N) = 2*(C(N-1)) + 1.  
+   ● Binary Search: 1. Intuitive 1 = N/2^C -> C = log(N), 2. Count exact C(N) = ⌊log(N)⌋+1 --> theta(logn) (= theta(log2n)), 3. C(N) = 1 + C((N-1)/2).  
+   ● Arbitrary Units(AU): Given that runtime is quadratic, for N = 64, we might say the runtime for selection sort is 4,096 arbitrary units of time.  
+   ● Sum: 1 + 2 + 3 … + N = theta(N^2) and 1 + 2 + 4 + … + N = theta(N).
 
