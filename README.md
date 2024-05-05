@@ -234,3 +234,27 @@
      WeightedQuickUnionDS O(N + M log N)  
      WeightedQuickUnionDSWithPathCompression O(N + M α(N))  
      (object of size N, perform M operations)
+   
+`5.5`
+1. Going to finish lec15, Asymptotics II.
+2. Finished lec15.
+3. Notes
+   ###### Part1 Lec Content
+   Lecture 15: Asymptotics II: Analysis of Algorithms  
+   ● Review of Asymptotic Notation  
+   ● Examples 1-2: For Loops  
+   ● Example 3: A Basic Recurrence  
+   ● Example 4: Binary Search  
+   ● Example 5: Mergesort
+
+   ###### Part2 Quick Thought
+   for for review(count and geomatric) --> for for(i=i*2)(A nice way: 0.5n < count < 2n) --> Recursion(3 ways) --> Binary Search(3 ways) --> Mergsort(theta(n*log2n))
+
+   ###### Part3 Extension
+   ● C(N): Cost model, Count, Use array writes as cost model.  
+   ● Two tech: 1.Intuitive(Graph or easy way), 2. Use array writes as cost model.  
+   ● Recursion: 1. Intuitive(double the graph of recursion Tree), 2. C(N)(Count calls of fn， and just use formula), 3.C(N) = 2*(C(N-1)) + 1.  
+   ● Binary Search: 1.Intuitive 1 = N/2^C -> C = log(N), 2.Count exact C(N) = ⌊log(N)⌋+1 --> theta(logn) (= theta(log2n)), 3.C(N) = 1 + C((N-1)/2).  
+   ● Arbitrary Units: Given that runtime is quadratic, for N = 64, we might say the runtime for selection sort is 4,096 arbitrary units of time ● (AU).  
+   ● Sum:  1 + 2 + 3 … + N = theta(N^2) and 1 + 2 + 4 + … + N = theta(N).
+
