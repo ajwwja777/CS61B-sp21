@@ -258,3 +258,27 @@
    ● Arbitrary Units(AU): Given that runtime is quadratic, for N = 64, we might say the runtime for selection sort is 4,096 arbitrary units of time.  
    ● Sum: 1 + 2 + 3 … + N = theta(N^2) and 1 + 2 + 4 + … + N = theta(N).
 
+`5.6`
+1. Going to finish lec16.
+2. Finished lec16.
+3. Notes
+   ###### Part1 Lec Content
+   Lecture 16: ADTs and BSTs  
+   ● Abstract Data Types  
+   ● Binary Search Tree (intro)  
+   ● BST Definitions  
+   ● BST Operations  
+   ● Sets vs. Maps, Summary
+
+   ###### Part2 Quick Review
+   Interface(is ADT)  
+   -->Choose best class implements Interface according to the problem(theta)  
+   -->Search Problem  
+   -->BST definition(Start with Search List, then step by step to build BST)  
+   -->BST operation  
+   -->Calc BST theta  
+   -->search  
+   -->insert(Avoid ARMS LENGTH RECURSION)  
+   -->delete  
+   -->Improve BST according to set and map(In general, all of data is a set, with the ADT, we give it data structure, with theta, we make it better.)  
+   -->BST implements Set 
