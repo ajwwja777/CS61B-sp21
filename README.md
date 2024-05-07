@@ -282,3 +282,8 @@
    -->delete  
    -->Improve BST according to set and map(In general, all of data is a set, with the ADT, we give it data structure, with theta, we make it better.)  
    -->BST implements Set 
+
+`5.7`
+1. Going to finish proj1gold-sp18.
+2. Finished?
+3. Notes
