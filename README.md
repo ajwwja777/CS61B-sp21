@@ -284,6 +284,26 @@
    -->BST implements Set 
 
 `5.7`
-1. Going to finish proj1gold-sp18.
-2. Finished?
+1. Going to finish proj1gold-sp18, chekc it in sp18.
+2. Finished proj1gold.
 3. Notes
+   ###### Part1 Quick review
+   @Test  
+   public void randomizedTest() {  
+       ...  
+       for(int i = 0; i < N; i++) {  
+           int operationNumber = StdRandom.uniform(0, 4);  
+           if (operationNumber == 0) {  
+               Integer randVal = StdRandom.uniform(0, 100);  
+               ads.addFirst(randVal);  
+               sad1.addFirst(randVal);  
+               output += "\naddFirst(" + randVal + ")";  
+           } else if{...}  
+           ...  
+       }  
+   }
+   ###### Part2 Thought
+   ● I find that my movement is too slow!  
+   ● And I forget something I've learned. So have some review!  
+   ● Read the doc --> Do it --> Think over and over again --> or Don't know what it means --> check own notes or others' answer1. This is what I do now. Slow!  
+   ● Do it quickly. My goal is not to get it too deep, just know it at a balanced depth. So think and check answer.
