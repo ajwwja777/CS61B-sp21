@@ -307,3 +307,8 @@
    ● And I forget something I've learned. So have some review!  
    ● Read the doc --> Do it --> Think over and over again --> or Don't know what it means --> check own notes or others' answer1. This is what I do now. Slow!  
    ● Do it quickly. My goal is not to get it too deep, just know it at a balanced depth. So think and check answer.
+
+`5.8`
+1. Going to finish proj1-sp21, doo it quickly!
+2. Finished?
+3. Notes
