@@ -309,6 +309,6 @@
    ● Do it quickly. My goal is not to get it too deep, just know it at a balanced depth. So think and check answer.
 
 `5.8`
-1. Going to finish proj1-sp21, doo it quickly!
+1. Going to finish proj1-sp21, do it quickly!
 2. Finished?
 3. Notes
