@@ -6,10 +6,10 @@ package deque;
 public class ArrayDeque<T> implements deque.Deque<T>{
 
     private T[] items;
-    private static int headerIndex = 0;
-    private static int lastIndex = 0;
-    private static int size = 0;
-    private static int length = 8;
+    private int headerIndex = 0;
+    private int lastIndex = 0;
+    private int size = 0;
+    private int length = 8;
 
     /* Creates an empty array deque. */
     /* The starting size of your array should be 8. */
@@ -35,8 +35,8 @@ public class ArrayDeque<T> implements deque.Deque<T>{
         System.arraycopy(items, 0, newItem, size - headerIndex, headerIndex);
         items = newItem;
         headerIndex = 0;
-        lastIndex = length - 1;
         length = capacity;
+        lastIndex = length - 1;
     }
     
     /* must take constant time, except during resizing operations. */
@@ -103,6 +103,9 @@ public class ArrayDeque<T> implements deque.Deque<T>{
     /* must take constant time, except during resizing operations. */
     @Override
     public T removeFirst() {
+        if (size == 0) {
+            return null;
+        }
         T firstItem = items[headerIndex];
         headerIndex++;
         size--;
@@ -112,7 +115,14 @@ public class ArrayDeque<T> implements deque.Deque<T>{
     /* must take constant time, except during resizing operations. */
     @Override
     public T removeLast() {
-        T lastItem = items[size - 1];
+        if (size == 0) {
+            return null;
+        }
+        T lastItem = items[lastIndex];
+        lastIndex--;
+        if (lastIndex < 0) {
+            lastIndex = length + headerIndex;
+        }
         size--;
         return lastItem;
     }

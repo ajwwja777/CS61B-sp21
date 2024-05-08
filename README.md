@@ -310,5 +310,15 @@
 
 `5.8`
 1. Going to finish proj1-sp21, do it quickly!
-2. Finished?
+2. Not Finished. Just Finished the basic part of it. Spent 2h.
 3. Notes
+   ###### Part1 Quick review
+   ● Move Deque/ArrayDeque/LLDeque.java to the deque.dir and change sth to fit environment.  
+   ● Test LLDeque, then success.  
+   ● Based on LLDTest, build ADTest with randomTest, randomTest failed. And it hard to find the bug! Out of length or lenth is -1.
+
+   ###### Part2 Thought
+   ● Vs sp18, the thought of sp21 is similar to it, and autograder in sp21 like proj1gold in sp18.  
+   ● At the first timeI did the proj1b-sp18(abcba, HoF), I even don't know what interface means, and i can finish the proj, so review is important!  
+   ● I should review max/equal part and iterator part and all the previous part.  
+   ● How to find bug... debug/check answer and compare. It's an improtant topic.
