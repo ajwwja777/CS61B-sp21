@@ -322,3 +322,16 @@
    ● At the first timeI did the proj1b-sp18(abcba, HoF), I even don't know what interface means, and i can finish the proj, so review is important!  
    ● I should review max/equal part and iterator part and all the previous part.  
    ● How to find bug... debug/check answer and compare. It's an improtant topic.
+
+`5.9`
+1. Going to Finish lec17.
+2. Finished?
+3. Notes
+   ###### Part1 Lec Content
+   **Lecture 17: B-Trees**
+   ● BST Performance
+   ● Big O ≠ Worst Case
+   ● 2-3-4 and 2-3 Tree Operations (a.k.a. B-Trees)
+   ● B-Tree Bushiness Invariants
+   ● B-Tree Performance
+4. IMPORTANT CHANGE: I find that Obsidian is nice, so I turn to it.
