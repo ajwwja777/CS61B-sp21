@@ -328,5 +328,5 @@
 2. NOT FINISHED.
 
 `5.10`
-1. IMPORTANT CHANGE: I find that Obsidian is nice, so I turn to it in local.
+1. IMPORTANT CHANGE: I find that Obsidian is nice, so I turn to it in local. [Here's the link](https://github.com/ajwwja777/wja_Vault/tree/master/DIY/CSDIY/CS61B/CS61B-sp21-Notes)
 2. Simple schedule will be upload here.
