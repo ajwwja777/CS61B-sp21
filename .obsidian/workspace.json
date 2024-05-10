@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wja_Notes/Lecture 17 B-Trees.md",
-                "mode": "preview",
+                "file": "README.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wja_Notes/Lecture 17 B-Trees.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wja_Notes/Lecture 17 B-Trees.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wja_Notes/Lecture 17 B-Trees.md"
+                "file": "README.md"
               }
             }
           }
@@ -148,10 +148,10 @@
   },
   "active": "c1adf9aab6e0acfa",
   "lastOpenFiles": [
+    "wja_Notes/Lecture 17 B-Trees.md",
     "README.md",
     "README_en.md",
     "README.pdf",
-    "Lecture 17 B-Trees.md",
-    "wja_Notes/Lecture 17 B-Trees.md"
+    "Lecture 17 B-Trees.md"
   ]
 }

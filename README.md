@@ -325,14 +325,8 @@
 
 `5.9`
 1. Going to Finish lec17.
-2. Finished?
-3. Notes
-   ###### Part1 Lec Content
-   **Lecture 17: B-Trees**
-   ● BST Performance
-   ● Big O ≠ Worst Case
-   ● 2-3-4 and 2-3 Tree Operations (a.k.a. B-Trees)
-   ● B-Tree Bushiness Invariants
-   ● B-Tree Performance
-4. IMPORTANT CHANGE: I find that Obsidian is nice, so I turn to it. Here is the link([[Lecture 17 B-Trees]]).
-5. If the file is so large, the AG slows down, so I will put the mark down to another repo. Here is the link (NOT CREATED YET).
+2. NOT FINISHED.
+
+`5.10`
+1. IMPORTANT CHANGE: I find that Obsidian is nice, so I turn to it in local.
+2. Simple schedule will be upload here.
