@@ -334,4 +334,5 @@
    ● 2-3-4 and 2-3 Tree Operations (a.k.a. B-Trees)
    ● B-Tree Bushiness Invariants
    ● B-Tree Performance
-4. IMPORTANT CHANGE: I find that Obsidian is nice, so I turn to it.
+4. IMPORTANT CHANGE: I find that Obsidian is nice, so I turn to it. Here is the link([[Lecture 17 B-Trees]]).
+5. If the file is so large, the AG slows down, so I will put the mark down to another repo. Here is the link (NOT CREATED YET).
