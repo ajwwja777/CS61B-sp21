@@ -87,4 +87,7 @@ public class TestBSTMap {
         assertTrue(b.containsKey("hi"));
     }
 
+    public static void main(String[] args) {
+          return;
+    }
 }
